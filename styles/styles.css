@@ -1,5 +1,56 @@
 /* Common Styles */
-*{
+* {
     margin: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+   
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.nav-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+    margin-top: 50px;
+    margin-left: 228px;
+
+}
+
+
+
+/* Banner */
+.banner {
+    width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
