@@ -160,6 +160,8 @@ nav ul {
 /* Love and Enjoy Feature */
 .love-enjoy {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .enjoy-info {}
@@ -170,6 +172,7 @@ nav ul {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+    margin-top: 170px;
 }
 
 .enjoy-text {
@@ -178,14 +181,16 @@ nav ul {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    margin-top: 30px;
 }
 
-.l-features{
+.l-features {
     width: 586px;
     height: 171px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
+    margin-top: 30px;
 }
 
 .f-title {
@@ -211,8 +216,35 @@ nav ul {
     padding-bottom: 30px;
 }
 
-.fe-img {}
+.fe-img img{
+    width: 600px;
+    height: 860px;
+    margin-left: 50px;
+}
 
-.fe-btn {}
+.fe-btn {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 765px;
+    top: 2860px;
 
-.fe-btn span {}
+}
+
+.fe-btn span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
