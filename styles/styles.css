@@ -108,13 +108,52 @@ nav ul {
     margin-bottom: 45px;
 
 }
-/* Features */
-.features{
+
+/* Quick Features */
+.features {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-.feature-images{
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 708px;
+    height: 708px;
+}
+
+.feature-info {
+    margin-left: 73px;
 
 }
-.feature-info{
-    
+
+.feature-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+
 }
+
+.f1 {
+    color: #131313;
+
+}
+
+.f2 {
+    color: #FF900E;
+}
+
+.feature-text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+/* Love and Enjoy Feature */
