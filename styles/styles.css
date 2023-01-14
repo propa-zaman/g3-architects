@@ -164,7 +164,15 @@ nav ul {
     justify-content: center;
 }
 
-.enjoy-info {}
+.enjoy-info hr {
+    position: absolute;
+    width: 5px;
+    height: 106px;
+    left: 90px;
+    top: 2115px;
+    background: #FF900E;
+    border: 0;
+}
 
 .enjoy-title {
     font-family: 'Work Sans';
@@ -216,7 +224,7 @@ nav ul {
     padding-bottom: 30px;
 }
 
-.fe-img img{
+.fe-img img {
     width: 600px;
     height: 860px;
     margin-left: 50px;
