@@ -356,3 +356,24 @@ nav ul {
     justify-content: space-evenly;
 
 }
+
+/* Footer */
+.footer {
+    width: 1300px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 75px;
+}
+
+.ft-text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding-top: 40px;
+}
