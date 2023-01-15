@@ -288,10 +288,11 @@ nav ul {
     border: 1px solid #FF900E;
     border-radius: 8px;
     margin-top: 100px;
-    Transition: border-radius 2s; 
+    Transition: border-radius 2s;
 
 }
-.fact:hover{
+
+.fact:hover {
     border-radius: 100px;
 
 
@@ -308,9 +309,10 @@ nav ul {
     height: 45.22px;
     margin-top: 45px;
     margin-left: 97px;
-    Transition: width 2s, height 2s; 
+    Transition: width 2s, height 2s;
 }
-.fact img:hover{
+
+.fact img:hover {
     width: 65.22px;
     height: 65.22px;
 
@@ -392,63 +394,120 @@ nav ul {
 
 /* Responsive for small devices */
 @media screen and (max-width: 688px) {
-    .navbar{
+    .navbar {
         width: 100%;
         align-items: flex-start;
     }
+
     .header {
         width: 100%;
     }
-    .banner{
+
+    .banner {
         width: 100%;
     }
-    .banner-img{
+
+    .banner-img {
         width: 100%;
         height: 250px;
     }
-    .nav-title{
+
+    .nav-title {
         margin-left: 30px;
-     
+
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         margin-left: -10px;
     }
-    nav ul li a{
-     
-    }
+
+    nav ul li a {}
+
     nav ul li {
         margin-left: 8px;
     }
-    .feature-images{
+
+    .feature-images {
         width: 100%;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 14px;
     }
-    .features{
+
+    .features {
         flex-direction: column;
     }
+
     .feature-info {
         margin-left: 30px;
-        margin-top: 700px;
+        margin-top: 740px;
     }
-    .love-enjoy{
+
+    .love-enjoy {
         flex-direction: column;
     }
-    .facts{
-        flex-direction: column;
+    .fe-img img{
+        width: 100%;
     }
-    .logos{
-        flex-direction: column;
+    .some-facts{
+        margin: 0;
     }
-    .footer{
+
+    .facts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facts-title{
+        text-align: center;
+    }
+    .facts-text{
+        text-align: center;
+    }
+    .logos {
+        flex-direction: column;
+        margin-top: 40px;
+        align-items: center;
+
+    }
+
+    .footer {
         width: 100%;
         margin-left: 0;
     }
-    .ft-text{
+
+    .ft-text {
         width: 100%;
-        
+
+    }
+
+    .fe-btn {
+        position: absolute;
+        left: 19px;
+        top: 4949px;
+    }
+
+    .l-features {
+        width: 100%;
+    }
+
+    .f-title {
+        width: 100%;
+    }
+
+    .f-text {
+        width: 100%;
+    }
+    .enjoy-info{
+        width: 100%;
+    }
+
+    .enjoy-text {
+        width: 100%;
+    }
+
+    .enjoy-title {
+        width: 100%;
     }
 
 }
-
-    
