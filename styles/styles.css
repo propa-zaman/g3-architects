@@ -288,6 +288,12 @@ nav ul {
     border: 1px solid #FF900E;
     border-radius: 8px;
     margin-top: 100px;
+    Transition: border-radius 2s; 
+
+}
+.fact:hover{
+    border-radius: 100px;
+
 
 }
 
@@ -302,6 +308,12 @@ nav ul {
     height: 45.22px;
     margin-top: 45px;
     margin-left: 97px;
+    Transition: width 2s, height 2s; 
+}
+.fact img:hover{
+    width: 65.22px;
+    height: 65.22px;
+
 }
 
 .fact-no {
